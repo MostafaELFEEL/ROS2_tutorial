@@ -1,0 +1,24 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/elfeel/tutorial/install/pubsub/lib/python3.10/site-packages",
+        "/home/elfeel/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/elfeel/ros2_ws/install/client_serv/lib/python3.10/site-packages",
+        "/home/elfeel/Ros2_Session/install/serv_client/lib/python3.10/site-packages",
+        "/home/elfeel/Ros2_Session/install/pub_sub/lib/python3.10/site-packages",
+        "/home/elfeel/Ros2_Session/install/custom_message/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/elfeel/tutorial/install/pubsub/lib/python3.10/site-packages",
+        "/home/elfeel/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/elfeel/ros2_ws/install/client_serv/lib/python3.10/site-packages",
+        "/home/elfeel/Ros2_Session/install/serv_client/lib/python3.10/site-packages",
+        "/home/elfeel/Ros2_Session/install/pub_sub/lib/python3.10/site-packages",
+        "/home/elfeel/Ros2_Session/install/custom_message/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "cmake.sourceDirectory": "/home/elfeel/tutorial/src/custom_message",
+    "ros.distro": "humble"
+}
