@@ -33,7 +33,28 @@ Before you begin, make sure you have the following prerequisites installed:
    **Paste the following line in bashrc**:
    ```bashrc
    source ~/ros2_tutorial/install/setup.bash
+   ```
+**Now you're all set!**
 
+
+## Project 1: Running your first node.
+```bash
+ros2 run my_robot_controller test_node
+```
+**Observe the terminal as it prints the counter every second.**
+## Porject 2: Running your first subscribe message.
+```bash
+ros2 run turtlesim turtlesim_node
+```
+**In a second terminal run**:
+```bash
+ros2 run turtlesim turtle_teleop_key
+```
+**In a third terminal run**:
+```bash
+ros2 run my_robot_controller pose_sub
+```
+**Control the turtle's movement in the teleop terminal by giving commands using the keys 'w,' 'a,' 's,' and 'd.' Simultaneously, observe the turtle's pose changes in the terminal.**
    
 
 
