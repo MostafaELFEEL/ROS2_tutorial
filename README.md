@@ -100,6 +100,7 @@ ros2 run turtlesim turtlesim_node
 ```bash
 ros2 run pubsub turtleCommander
 ```
+**Enter one of these shape commands (heart, star, epicycloid) in the shapeNode terminal and observe the turtle as it draws the corresponding shape.** 
 
 
 
