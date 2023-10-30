@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/elfeel/tutorial/install/pubsub/lib/python3.10/site-packages",
+        "/home/elfeel/tutorial/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/elfeel/tutorial/install/kinematic_bicycle/lib/python3.10/site-packages",
+        "/home/elfeel/tutorial/install/custom_message/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/elfeel/tutorial/install/pubsub/lib/python3.10/site-packages",
+        "/home/elfeel/tutorial/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/elfeel/tutorial/install/kinematic_bicycle/lib/python3.10/site-packages",
+        "/home/elfeel/tutorial/install/custom_message/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

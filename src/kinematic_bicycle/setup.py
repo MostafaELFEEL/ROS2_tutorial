@@ -1,6 +1,8 @@
 from setuptools import find_packages, setup
+import os  
+from glob import glob
 
-package_name = 'my_robot_controller'
+package_name = 'kinematic_bicycle'
 
 setup(
     name=package_name,
@@ -10,20 +12,22 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name), glob('launch/*.launch.py')),
+        (os.path.join('share', package_name), glob('launch/*.rviz'))  
+
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='omar',
-    maintainer_email='omar@todo.todo',
+    maintainer='amin',
+    maintainer_email='amin@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "test_node = my_robot_controller.my_first_node:main",
-            "draw_circle = my_robot_controller.draw_circle:main",
-            "pose_sub = my_robot_controller.pose_subscriber:main",
-            "closed_loop = my_robot_controller.ClosedLoop:main"
+            'kinematic_bicycle = kinematic_bicycle.main:main',
+            'path_gen = kinematic_bicycle.path_gen:main',
+            'test = kinematic_bicycle.controller:main'
         ],
     },
 )

@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import rclpy
 from rclpy.node import Node
 from turtlesim.msg import Pose
@@ -14,13 +13,11 @@ class Subscriber_Node(Node):
     
 
 def main(args=None):
-    rclpy.init(args=args)
+    try:
+        rclpy.init(args=args)
+        node = Subscriber_Node()
+        rclpy.spin(node)
+        rclpy.shutdown()
 
-    node = Subscriber_Node()
-    rclpy.spin(node)
-
-    rclpy.shutdown()
-
-
-if __name__ == "__main__":
-    main()
+    except KeyboardInterrupt:
+        pass
