@@ -16,10 +16,10 @@ class MyNode(Node):
     def callback(self, msg: Pose):
 
         speed = Twist()
-        speed.linear.x = 2.0
+        speed.linear.x = 1.0
 
         if msg.x > 9 or msg.x < 1 or msg.y > 9 or msg.y < 1:
-            speed.angular.z = 5.0
+            speed.angular.z = 3.0
         else:
             speed.angular.z = 0.0
         
