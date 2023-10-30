@@ -38,11 +38,13 @@ Before you begin, make sure you have the following prerequisites installed:
 
 
 ## Project 1: Running your first node.
+**In a terminal run**:
 ```bash
 ros2 run my_robot_controller test_node
 ```
 **Observe the terminal as it prints the counter every second.**
 ## Porject 2: Running your first subscribe message.
+**In a terminal run**:
 ```bash
 ros2 run turtlesim turtlesim_node
 ```
@@ -55,7 +57,26 @@ ros2 run turtlesim turtle_teleop_key
 ros2 run my_robot_controller pose_sub
 ```
 **Control the turtle's movement in the teleop terminal by giving commands using the keys 'w,' 'a,' 's,' and 'd.' Simultaneously, observe the turtle's pose changes in the terminal.**
-   
+## Project 3: Turtle draws a circle.
+**In a terminal run**:
+```bash
+ros2 run turtlesim turtlesim_node
+```
+**In a second terminal run**:
+```bash
+ros2 run my_robot_controller draw_circle
+```
+**Watch the turtle as it draws a circle.**
+## Project 4:Turtle controller.
+**In a terminal run**:
+```bash
+ros2 run turtlesim turtlesim_node
+```
+**In a second terminal run**:
+```bash
+ros2 run my_robot_controller closed_loop
+```
+**In this project, observe how the turtle is controlled to prevent it from coming into contact with the edges. Additionally, the SetPen service is utilized to alter the pen color when the turtle moves into the left half and revert to the original color when it moves back to the right half.**
 
 
 
