@@ -67,7 +67,7 @@ ros2 run turtlesim turtlesim_node
 ros2 run my_robot_controller draw_circle
 ```
 **Watch the turtle as it draws a circle.**
-## Project 4:Turtle controller.
+## Project 4: Turtle controller.
 **In a terminal run**:
 ```bash
 ros2 run turtlesim turtlesim_node
@@ -77,6 +77,29 @@ ros2 run turtlesim turtlesim_node
 ros2 run my_robot_controller closed_loop
 ```
 **In this project, observe how the turtle is controlled to prevent it from coming into contact with the edges. Additionally, the SetPen service is utilized to alter the pen color when the turtle moves into the left half and revert to the original color when it moves back to the right half.**
+## Project 5: Publisher_Subscriber nodes.
+**In a terminal run**:
+```bash
+ros2 run pubsub sub
+```
+**In a second terminal run**:
+```bash
+ros2 run pubsub pub
+```
+**Simple Publisher-Subscriber Nodes.**
+## Project 6: Turtle Draws shapes using parametric equation
+**In a terminal run**:
+```bash
+ros2 run pubsub shapeNode
+```
+**In a second terminal run**:
+```bash
+ros2 run turtlesim turtlesim_node
+```
+**In a third terminal run**:
+```bash
+ros2 run pubsub turtleCommander
+```
 
 
 
