@@ -7,8 +7,10 @@ This repository contains instructions for setting up your environment for a ROS 
 
 Before you begin, make sure you have the following prerequisites installed:
 
+- A Linux-based operating system (ROS 2 is primarily supported on Ubuntu 22.04)
 - [ROS 2](https://docs.ros.org/en/humble/Installation.html)
-- A Linux-based operating system (ROS 2 is primarily supported on Ubuntu)
+- [CoppeliaSim Edu V4 for Ubuntu 22.04](https://your-coppelia-download-link-here](https://coppeliarobotics.com/downloads?flavor=edu))
+
 
 ## Getting Started
 
@@ -106,4 +108,18 @@ ros2 run pubsub turtleCommander
 | ------- | ------- | ------- |
 | ![Image 1](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/5895ed29-8c63-4988-b8a0-9d973779c5f3) | ![Image 2](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/75bc428c-0c59-4929-884a-c7d65db8dbc0) | ![Image 3](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/ed5de0a2-cd30-41ac-9eb7-1afa3a06f22f) |
 
+## Project 7: Model vs Simulation on CoppeliaSim
+**In a terminal run**:
+```bash
+cd CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04 && ./coppeliaSim.sh
+```
+**Open Coppeliasim and select robot.ttt from extra folder.**
 
+**In a second terminal run**:
+```bash
+ros2 run turtlesim turtlesim_node
+```
+**In a third terminal run**:
+```bash
+ros2 run pubsub turtleCommander
+```
