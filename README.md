@@ -39,13 +39,16 @@ Before you begin, make sure you have the following prerequisites installed:
 **Now you're all set!**
 
 
-## Project 1: Running your first node.
+## Project 1: Running your first node
 **In a terminal run**:
 ```bash
 ros2 run my_robot_controller test_node
 ```
 **Observe the terminal as it prints the counter every second.**
-## Porject 2: Running your first subscribe message.
+
+![image](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/97c61d53-ff4a-444e-9aa5-af07b21cabb0)
+
+## Porject 2: Running your first subscribe message
 **In a terminal run**:
 ```bash
 ros2 run turtlesim turtlesim_node
@@ -58,8 +61,11 @@ ros2 run turtlesim turtle_teleop_key
 ```bash
 ros2 run my_robot_controller pose_sub
 ```
-**Control the turtle's movement in the teleop terminal by giving commands using the keys 'w,' 'a,' 's,' and 'd.' Simultaneously, observe the turtle's pose changes in the terminal.**
-## Project 3: Turtle draws a circle.
+**Control the turtle's movement in the teleop terminal by giving commands using the arrow keys , observe the turtle's pose changes in the terminal.**
+
+![image](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/6eaa19e1-5c7b-46cb-abfd-064565bd5627)
+
+## Project 3: Turtle draws a circle
 **In a terminal run**:
 ```bash
 ros2 run turtlesim turtlesim_node
@@ -69,7 +75,10 @@ ros2 run turtlesim turtlesim_node
 ros2 run my_robot_controller draw_circle
 ```
 **Watch the turtle as it draws a circle.**
-## Project 4: Turtle controller.
+
+![image](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/788076a2-b101-4dd3-a3fa-eddf49cc940e)
+
+## Project 4: Turtle controller
 **In a terminal run**:
 ```bash
 ros2 run turtlesim turtlesim_node
@@ -79,7 +88,10 @@ ros2 run turtlesim turtlesim_node
 ros2 run my_robot_controller closed_loop
 ```
 **In this project, observe how the turtle is controlled to prevent it from coming into contact with the edges. Additionally, the SetPen service is utilized to alter the pen color when the turtle moves into the left half and revert to the original color when it moves back to the right half.**
-## Project 5: Publisher_Subscriber nodes.
+
+![image](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/5c646443-f03c-4d96-bbec-4b091755ff02)
+
+## Project 5: Publisher_Subscriber nodes
 **In a terminal run**:
 ```bash
 ros2 run pubsub sub
@@ -109,7 +121,8 @@ ros2 run pubsub turtleCommander
 | ![Image 1](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/5895ed29-8c63-4988-b8a0-9d973779c5f3) | ![Image 2](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/75bc428c-0c59-4929-884a-c7d65db8dbc0) | ![Image 3](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/ed5de0a2-cd30-41ac-9eb7-1afa3a06f22f) |
 
 ## Project 7: Model vs Simulation on CoppeliaSim
-**Automated**
+### Automated
+
 **In a terminal run**:
 ```bash
 cd CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04 && ./coppeliaSim.sh
@@ -120,7 +133,8 @@ cd CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04 && ./coppeliaSim.sh
 ```bash
 ros2 run pubsub diffdrivetime
 ```
-**Real-Time Manual**:
+### Real-Time Manual
+
 **In a terminal run**:
 ```bash
 cd CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04 && ./coppeliaSim.sh
@@ -135,4 +149,5 @@ ros2 run pubsub diffdrive
 ```bash
 ros2 run pubsub shapeNode
 ```
+![image](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/05115298-5e7f-4043-be54-b709d18a7982)
 
