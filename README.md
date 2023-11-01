@@ -109,6 +109,7 @@ ros2 run pubsub turtleCommander
 | ![Image 1](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/5895ed29-8c63-4988-b8a0-9d973779c5f3) | ![Image 2](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/75bc428c-0c59-4929-884a-c7d65db8dbc0) | ![Image 3](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/ed5de0a2-cd30-41ac-9eb7-1afa3a06f22f) |
 
 ## Project 7: Model vs Simulation on CoppeliaSim
+**Automated**
 **In a terminal run**:
 ```bash
 cd CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04 && ./coppeliaSim.sh
@@ -117,9 +118,21 @@ cd CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04 && ./coppeliaSim.sh
 
 **In a second terminal run**:
 ```bash
-ros2 run turtlesim turtlesim_node
+ros2 run pubsub diffdrivetime
+```
+**Real-Time Manual**:
+**In a terminal run**:
+```bash
+cd CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04 && ./coppeliaSim.sh
+```
+**Open Coppeliasim and select robot.ttt from extra folder.**
+
+**In a second terminal run**:
+```bash
+ros2 run pubsub diffdrive
 ```
 **In a third terminal run**:
 ```bash
-ros2 run pubsub turtleCommander
+ros2 run pubsub shapeNode
 ```
+
