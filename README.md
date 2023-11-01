@@ -157,3 +157,14 @@ ros2 run pubsub shapeNode
 ```
 ![image](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/05115298-5e7f-4043-be54-b709d18a7982)
 
+## Project 8: PID Longitudinal and Pure Pursuit Lateral Control for Bicycle Model
+**In a terminal run**:
+```bash
+ros2 launch kinematic_bicycle kinematic_bicycle.launch.py
+```
+**In a second terminal run**:
+```bash
+ros2 run kinematic_bicycle test
+```
+![image](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/e1e52b02-85bc-4584-aa2e-6038ff0c01f7)
+
