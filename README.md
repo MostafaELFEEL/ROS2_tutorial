@@ -65,6 +65,8 @@ ros2 run my_robot_controller pose_sub
 
 ![image](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/6eaa19e1-5c7b-46cb-abfd-064565bd5627)
 
+![image](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/c6b506dc-a0f3-4828-bf0b-ba2e1aa5b53b)
+
 ## Project 3: Turtle draws a circle
 **In a terminal run**:
 ```bash
