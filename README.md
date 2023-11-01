@@ -101,6 +101,9 @@ ros2 run pubsub sub
 ros2 run pubsub pub
 ```
 **Simple Publisher-Subscriber Nodes.**
+
+![image](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/1d47e665-3800-4273-b626-30a25717574e)
+
 ## Project 6: Turtle Draws shapes using parametric equation
 **In a terminal run**:
 ```bash
@@ -133,6 +136,9 @@ cd CoppeliaSim_Edu_V4_5_1_rev4_Ubuntu22_04 && ./coppeliaSim.sh
 ```bash
 ros2 run pubsub diffdrivetime
 ```
+
+![image](https://github.com/MostafaELFEEL/ROS2_tutorial/assets/106331831/1c3e4e98-3367-4ccb-a456-262b5ecae88b)
+
 ### Real-Time Manual
 
 **In a terminal run**:
